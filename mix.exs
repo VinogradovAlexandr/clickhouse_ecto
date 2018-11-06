@@ -24,10 +24,10 @@ defmodule ClickhouseEcto.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ecto, "~> 3.0.0-rc1"},
+      {:ecto, "~> 3.0.1-rc1"},
       {:ecto_sql, "~> 3.0.0-rc1"},
       {:ex_doc, "~> 0.19", only: :dev},
-      {:db_connection, "~> 2.0"},
+      {:db_connection, "~> 2.0.1"},
       {:httpoison, "~> 1.0"},
       {:poison, ">= 1.0.0"},
 
@@ -45,10 +45,10 @@ defmodule ClickhouseEcto.Mixfile do
   end
 
   defp description do
-    "Ecto adapter for ClickHouse database (uses ClickhouseEcto driver)"
+    "Ecto adapter for ClickHouse database. Adapter was merged with clickhousex"
   end
 
   defp maintainers do
-    ["Roman Chudov", "Konstantin Grabar", "Evgeniy Shurmin", "Alexey Lukyanov"]
+    [""]
   end
 end
